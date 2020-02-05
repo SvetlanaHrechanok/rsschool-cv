@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+section {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(45deg, #c3efdd, #041e46);
+}
+
+.div_header {
+    height: 170px;
+    text-align: center;
+    padding: 25px;
+    background-image: url(clouds-png.png);
+    background-position-x: right;
+    background-repeat-y: no-repeat;
+    background-repeat-x: no-repeat;
+    background-size: 650px;
+}
+
+.div_header > h1 {
+    margin: 0 auto;
+    color: #34526c;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 102px;
+}
+
+.div_header > a {
+    border: 1px solid #71849e;
+    padding: 5px 27px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 11px 0px #00000069;
+    text-decoration: none;
+    color: #34526c;
+}
+.div_header > a:hover, footer > a:hover {
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    height: 75px;
+    background: linear-gradient(-45deg, #c3efdd, #041e46);
+}
+
+footer > a {
+    text-decoration: none;
+    color: #34526c;
+    line-height: 74px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #23405f;
+}
+
+p, li {
+    font-family: sans-serif;
+    color: #34526c;
+}
+
+.about {
+    border-left: 7px solid #567887;
+}
+
+.about > p {
+    margin-left: 10px;
+}
